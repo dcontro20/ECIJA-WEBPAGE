@@ -1,0 +1,561 @@
+import type { Locale } from "./config";
+
+export type Dictionary = typeof dictionaries.es;
+
+export const dictionaries = {
+  es: {
+    nav: {
+      home: "Inicio",
+      firm: "El Estudio",
+      practices: "Áreas de Práctica",
+      team: "Equipo",
+      insights: "Insights",
+      offices: "Oficinas",
+      contact: "Contacto",
+      cta: "Consultá con nosotros",
+      menu: "Menú",
+      close: "Cerrar",
+    },
+    common: {
+      readMore: "Leer más",
+      learnMore: "Conocer más",
+      viewAll: "Ver todo",
+      backTo: "Volver a",
+      allPractices: "Todas las áreas",
+      allTeam: "Todo el equipo",
+      allInsights: "Todos los insights",
+      getInTouch: "Contactanos",
+      partner: "Socio",
+      seniorPartner: "Socio Director",
+      counsel: "Counsel",
+      senior: "Asociado Senior",
+      associate: "Asociado",
+      languages: "Idiomas",
+      education: "Formación",
+      experience: "Experiencia",
+      focusAreas: "Áreas de enfoque",
+      relatedPractices: "Áreas relacionadas",
+      relatedInsights: "Insights relacionados",
+      keyContacts: "Contactos clave",
+      services: "Servicios",
+      sectors: "Sectores",
+      published: "Publicado",
+      minRead: "min de lectura",
+      share: "Compartir",
+      email: "Email",
+      phone: "Teléfono",
+      address: "Dirección",
+      loading: "Cargando…",
+    },
+    home: {
+      heroEyebrow: "Estudio jurídico internacional · Buenos Aires",
+      heroTitle: "Derecho que entiende el negocio del futuro.",
+      heroSubtitle:
+        "Acompañamos a empresas, fondos y emprendedores en las industrias que están redefiniendo la economía: tecnología, datos, propiedad intelectual y mercados regulados.",
+      heroCtaPrimary: "Explorar áreas de práctica",
+      heroCtaSecondary: "Conocer el estudio",
+      statClients: "Clientes activos",
+      statLawyers: "Profesionales",
+      statCountries: "Países en la red ECIJA",
+      statYears: "Años de trayectoria global",
+      introEyebrow: "Quiénes somos",
+      introTitle:
+        "Un estudio que combina la profundidad técnica con una mirada global.",
+      introBody:
+        "ECIJA Argentina integra la mayor red de firmas legales especializadas en tecnología de habla hispana. Asesoramos en las intersecciones más complejas entre el derecho, la innovación y los negocios, con estándares de calidad de los principales mercados del mundo.",
+      practicesEyebrow: "Áreas de práctica",
+      practicesTitle: "Asesoramiento de extremo a extremo.",
+      practicesSubtitle:
+        "Equipos multidisciplinarios que cubren cada necesidad legal de su organización.",
+      whyEyebrow: "Por qué ECIJA",
+      whyTitle: "La diferencia está en cómo trabajamos.",
+      whyItems: [
+        {
+          title: "Especialización real",
+          body: "Pioneros en derecho de la tecnología, datos y propiedad intelectual. No improvisamos: lo hacemos hace décadas.",
+        },
+        {
+          title: "Alcance internacional",
+          body: "Presencia en más de 15 países con equipos integrados. Sus operaciones cross-border, en una sola conversación.",
+        },
+        {
+          title: "Negocio primero",
+          body: "Entendemos la estrategia comercial detrás de cada decisión legal. Asesoramiento práctico, no académico.",
+        },
+        {
+          title: "Cercanía y compromiso",
+          body: "Equipos accesibles, tiempos de respuesta de primer nivel y socios involucrados en cada asunto.",
+        },
+      ],
+      insightsEyebrow: "Insights",
+      insightsTitle: "Análisis sobre lo que viene.",
+      insightsSubtitle:
+        "Perspectivas de nuestros equipos sobre regulación, tecnología y negocios.",
+      ctaTitle: "¿Tenés un desafío legal complejo?",
+      ctaBody:
+        "Conversemos. Nuestro equipo está listo para ayudarte a transformar incertidumbre en estrategia.",
+      ctaButton: "Agendá una reunión",
+      sectorsEyebrow: "Sectores",
+      sectorsTitle: "Industrias que conocemos por dentro.",
+    },
+    firm: {
+      eyebrow: "El Estudio",
+      title: "Donde el derecho se encuentra con la innovación.",
+      lead: "ECIJA es la firma de servicios legales líder en tecnología, privacidad y propiedad intelectual del mundo de habla hispana y portuguesa. En Argentina, llevamos ese ADN a uno de los mercados más dinámicos de la región.",
+      missionTitle: "Nuestra misión",
+      missionBody:
+        "Brindar asesoramiento legal de excelencia que permita a nuestros clientes innovar con confianza, anticipar riesgos y capturar oportunidades en un entorno en constante transformación.",
+      valuesTitle: "Nuestros valores",
+      values: [
+        { title: "Excelencia", body: "Estándares de los principales mercados legales del mundo, aplicados localmente." },
+        { title: "Integridad", body: "Independencia de criterio y transparencia absoluta con cada cliente." },
+        { title: "Innovación", body: "Adoptamos la tecnología que asesoramos. Practicamos lo que predicamos." },
+        { title: "Colaboración", body: "Equipos integrados que trabajan sin silos, a través de prácticas y fronteras." },
+      ],
+      historyTitle: "Una red, una visión",
+      historyBody:
+        "Fundada con la convicción de que la tecnología cambiaría para siempre la práctica del derecho, ECIJA construyó la red de firmas especializadas más extensa de Iberoamérica. Hoy, esa red conecta a profesionales en Europa y América Latina bajo un mismo estándar de calidad.",
+      networkTitle: "Parte de algo más grande",
+      networkBody:
+        "Como integrantes de la red ECIJA, nuestros clientes acceden a equipos coordinados en más de 15 países, ideal para operaciones regionales y transacciones internacionales.",
+    },
+    contact: {
+      eyebrow: "Contacto",
+      title: "Hablemos de tu próximo paso.",
+      subtitle:
+        "Completá el formulario y un miembro de nuestro equipo se pondrá en contacto a la brevedad.",
+      formName: "Nombre y apellido",
+      formEmail: "Email corporativo",
+      formCompany: "Empresa",
+      formPhone: "Teléfono",
+      formArea: "Área de interés",
+      formMessage: "Contanos sobre tu consulta",
+      formSubmit: "Enviar consulta",
+      formSelectArea: "Seleccioná un área",
+      formSuccess: "¡Gracias! Recibimos tu consulta y te responderemos pronto.",
+      directTitle: "Contacto directo",
+      officesTitle: "Nuestras oficinas",
+      privacyNote:
+        "Al enviar este formulario aceptás nuestra política de privacidad. Tus datos serán tratados de forma confidencial.",
+    },
+    offices: {
+      eyebrow: "Oficinas",
+      title: "Presencia local, alcance global.",
+      subtitle:
+        "Desde Buenos Aires coordinamos operaciones en toda la región, conectados con la red ECIJA internacional.",
+      headquarters: "Casa central",
+      getDirections: "Cómo llegar",
+    },
+    insights: {
+      eyebrow: "Insights",
+      title: "Ideas que anticipan el cambio.",
+      subtitle:
+        "Análisis, novedades regulatorias y perspectivas de nuestros especialistas.",
+      featured: "Destacado",
+      categories: "Categorías",
+      all: "Todos",
+    },
+    team: {
+      eyebrow: "Equipo",
+      title: "Las personas detrás del asesoramiento.",
+      subtitle:
+        "Un equipo de especialistas que combina rigor técnico, visión de negocio y compromiso con cada cliente.",
+      filterAll: "Todos",
+      filterPractice: "Filtrar por área",
+    },
+    practices: {
+      eyebrow: "Áreas de Práctica",
+      title: "Cobertura legal integral para la economía digital.",
+      subtitle:
+        "Equipos especializados que asesoran en cada dimensión legal de su organización.",
+    },
+    footer: {
+      tagline: "Derecho, tecnología y negocios. Estándares globales, raíces locales.",
+      navTitle: "Navegación",
+      practicesTitle: "Áreas destacadas",
+      contactTitle: "Contacto",
+      legalTitle: "Legal",
+      privacy: "Política de privacidad",
+      terms: "Términos de uso",
+      cookies: "Política de cookies",
+      rights: "Todos los derechos reservados.",
+      newsletter: "Suscribite a nuestros insights",
+      newsletterPlaceholder: "Tu email",
+      newsletterButton: "Suscribirme",
+      disclaimer:
+        "ECIJA Argentina es una firma miembro de la red internacional ECIJA. Este sitio tiene fines informativos y no constituye asesoramiento legal.",
+    },
+  },
+
+  en: {
+    nav: {
+      home: "Home",
+      firm: "The Firm",
+      practices: "Practice Areas",
+      team: "Team",
+      insights: "Insights",
+      offices: "Offices",
+      contact: "Contact",
+      cta: "Get in touch",
+      menu: "Menu",
+      close: "Close",
+    },
+    common: {
+      readMore: "Read more",
+      learnMore: "Learn more",
+      viewAll: "View all",
+      backTo: "Back to",
+      allPractices: "All practice areas",
+      allTeam: "All team",
+      allInsights: "All insights",
+      getInTouch: "Get in touch",
+      partner: "Partner",
+      seniorPartner: "Managing Partner",
+      counsel: "Counsel",
+      senior: "Senior Associate",
+      associate: "Associate",
+      languages: "Languages",
+      education: "Education",
+      experience: "Experience",
+      focusAreas: "Focus areas",
+      relatedPractices: "Related practices",
+      relatedInsights: "Related insights",
+      keyContacts: "Key contacts",
+      services: "Services",
+      sectors: "Sectors",
+      published: "Published",
+      minRead: "min read",
+      share: "Share",
+      email: "Email",
+      phone: "Phone",
+      address: "Address",
+      loading: "Loading…",
+    },
+    home: {
+      heroEyebrow: "International law firm · Buenos Aires",
+      heroTitle: "Law that understands the business of the future.",
+      heroSubtitle:
+        "We advise companies, funds and entrepreneurs in the industries redefining the economy: technology, data, intellectual property and regulated markets.",
+      heroCtaPrimary: "Explore practice areas",
+      heroCtaSecondary: "About the firm",
+      statClients: "Active clients",
+      statLawyers: "Professionals",
+      statCountries: "Countries in the ECIJA network",
+      statYears: "Years of global experience",
+      introEyebrow: "Who we are",
+      introTitle:
+        "A firm that combines technical depth with a global outlook.",
+      introBody:
+        "ECIJA Argentina is part of the largest network of technology-focused law firms in the Spanish-speaking world. We advise at the most complex intersections of law, innovation and business, with quality standards drawn from the world's leading markets.",
+      practicesEyebrow: "Practice areas",
+      practicesTitle: "End-to-end legal counsel.",
+      practicesSubtitle:
+        "Multidisciplinary teams covering every legal need of your organisation.",
+      whyEyebrow: "Why ECIJA",
+      whyTitle: "The difference is in how we work.",
+      whyItems: [
+        {
+          title: "Genuine specialisation",
+          body: "Pioneers in technology, data and intellectual property law. We don't improvise — we've done this for decades.",
+        },
+        {
+          title: "International reach",
+          body: "Present in more than 15 countries with integrated teams. Your cross-border operations, in a single conversation.",
+        },
+        {
+          title: "Business first",
+          body: "We understand the commercial strategy behind every legal decision. Practical advice, not academic.",
+        },
+        {
+          title: "Closeness and commitment",
+          body: "Accessible teams, first-rate response times and partners involved in every matter.",
+        },
+      ],
+      insightsEyebrow: "Insights",
+      insightsTitle: "Analysis on what comes next.",
+      insightsSubtitle:
+        "Perspectives from our teams on regulation, technology and business.",
+      ctaTitle: "Facing a complex legal challenge?",
+      ctaBody:
+        "Let's talk. Our team is ready to help you turn uncertainty into strategy.",
+      ctaButton: "Book a meeting",
+      sectorsEyebrow: "Sectors",
+      sectorsTitle: "Industries we know from the inside.",
+    },
+    firm: {
+      eyebrow: "The Firm",
+      title: "Where law meets innovation.",
+      lead: "ECIJA is the leading legal services firm in technology, privacy and intellectual property across the Spanish- and Portuguese-speaking world. In Argentina, we bring that DNA to one of the region's most dynamic markets.",
+      missionTitle: "Our mission",
+      missionBody:
+        "To deliver outstanding legal counsel that enables our clients to innovate with confidence, anticipate risk and capture opportunity in a constantly changing environment.",
+      valuesTitle: "Our values",
+      values: [
+        { title: "Excellence", body: "The standards of the world's leading legal markets, applied locally." },
+        { title: "Integrity", body: "Independent judgement and absolute transparency with every client." },
+        { title: "Innovation", body: "We adopt the technology we advise on. We practice what we preach." },
+        { title: "Collaboration", body: "Integrated teams working without silos, across practices and borders." },
+      ],
+      historyTitle: "One network, one vision",
+      historyBody:
+        "Founded on the conviction that technology would forever change the practice of law, ECIJA built the most extensive network of specialised firms in Ibero-America. Today that network connects professionals across Europe and Latin America under a single standard of quality.",
+      networkTitle: "Part of something bigger",
+      networkBody:
+        "As members of the ECIJA network, our clients access coordinated teams in more than 15 countries — ideal for regional operations and international transactions.",
+    },
+    contact: {
+      eyebrow: "Contact",
+      title: "Let's talk about your next move.",
+      subtitle:
+        "Complete the form and a member of our team will be in touch shortly.",
+      formName: "Full name",
+      formEmail: "Work email",
+      formCompany: "Company",
+      formPhone: "Phone",
+      formArea: "Area of interest",
+      formMessage: "Tell us about your enquiry",
+      formSubmit: "Send enquiry",
+      formSelectArea: "Select an area",
+      formSuccess: "Thank you! We've received your enquiry and will reply soon.",
+      directTitle: "Direct contact",
+      officesTitle: "Our offices",
+      privacyNote:
+        "By submitting this form you accept our privacy policy. Your data will be treated confidentially.",
+    },
+    offices: {
+      eyebrow: "Offices",
+      title: "Local presence, global reach.",
+      subtitle:
+        "From Buenos Aires we coordinate operations across the region, connected to the international ECIJA network.",
+      headquarters: "Headquarters",
+      getDirections: "Get directions",
+    },
+    insights: {
+      eyebrow: "Insights",
+      title: "Ideas that anticipate change.",
+      subtitle:
+        "Analysis, regulatory updates and perspectives from our specialists.",
+      featured: "Featured",
+      categories: "Categories",
+      all: "All",
+    },
+    team: {
+      eyebrow: "Team",
+      title: "The people behind the advice.",
+      subtitle:
+        "A team of specialists combining technical rigour, business insight and commitment to every client.",
+      filterAll: "All",
+      filterPractice: "Filter by practice",
+    },
+    practices: {
+      eyebrow: "Practice Areas",
+      title: "Comprehensive legal coverage for the digital economy.",
+      subtitle:
+        "Specialised teams advising on every legal dimension of your organisation.",
+    },
+    footer: {
+      tagline: "Law, technology and business. Global standards, local roots.",
+      navTitle: "Navigation",
+      practicesTitle: "Featured practices",
+      contactTitle: "Contact",
+      legalTitle: "Legal",
+      privacy: "Privacy policy",
+      terms: "Terms of use",
+      cookies: "Cookie policy",
+      rights: "All rights reserved.",
+      newsletter: "Subscribe to our insights",
+      newsletterPlaceholder: "Your email",
+      newsletterButton: "Subscribe",
+      disclaimer:
+        "ECIJA Argentina is a member firm of the international ECIJA network. This site is for informational purposes and does not constitute legal advice.",
+    },
+  },
+
+  de: {
+    nav: {
+      home: "Start",
+      firm: "Die Kanzlei",
+      practices: "Fachbereiche",
+      team: "Team",
+      insights: "Insights",
+      offices: "Standorte",
+      contact: "Kontakt",
+      cta: "Kontakt aufnehmen",
+      menu: "Menü",
+      close: "Schließen",
+    },
+    common: {
+      readMore: "Weiterlesen",
+      learnMore: "Mehr erfahren",
+      viewAll: "Alle ansehen",
+      backTo: "Zurück zu",
+      allPractices: "Alle Fachbereiche",
+      allTeam: "Gesamtes Team",
+      allInsights: "Alle Insights",
+      getInTouch: "Kontakt aufnehmen",
+      partner: "Partner",
+      seniorPartner: "Geschäftsführender Partner",
+      counsel: "Counsel",
+      senior: "Senior Associate",
+      associate: "Associate",
+      languages: "Sprachen",
+      education: "Ausbildung",
+      experience: "Erfahrung",
+      focusAreas: "Schwerpunkte",
+      relatedPractices: "Verwandte Fachbereiche",
+      relatedInsights: "Verwandte Insights",
+      keyContacts: "Hauptansprechpartner",
+      services: "Leistungen",
+      sectors: "Branchen",
+      published: "Veröffentlicht",
+      minRead: "Min. Lesezeit",
+      share: "Teilen",
+      email: "E-Mail",
+      phone: "Telefon",
+      address: "Adresse",
+      loading: "Lädt…",
+    },
+    home: {
+      heroEyebrow: "Internationale Wirtschaftskanzlei · Buenos Aires",
+      heroTitle: "Recht, das das Geschäft der Zukunft versteht.",
+      heroSubtitle:
+        "Wir beraten Unternehmen, Fonds und Gründer in den Branchen, die die Wirtschaft neu definieren: Technologie, Daten, geistiges Eigentum und regulierte Märkte.",
+      heroCtaPrimary: "Fachbereiche entdecken",
+      heroCtaSecondary: "Über die Kanzlei",
+      statClients: "Aktive Mandanten",
+      statLawyers: "Fachkräfte",
+      statCountries: "Länder im ECIJA-Netzwerk",
+      statYears: "Jahre globale Erfahrung",
+      introEyebrow: "Wer wir sind",
+      introTitle:
+        "Eine Kanzlei, die fachliche Tiefe mit globaler Perspektive verbindet.",
+      introBody:
+        "ECIJA Argentinien ist Teil des größten Netzwerks technologieorientierter Kanzleien im spanischsprachigen Raum. Wir beraten an den komplexesten Schnittstellen von Recht, Innovation und Wirtschaft – nach Qualitätsstandards der weltweit führenden Märkte.",
+      practicesEyebrow: "Fachbereiche",
+      practicesTitle: "Rechtsberatung von A bis Z.",
+      practicesSubtitle:
+        "Interdisziplinäre Teams, die jeden rechtlichen Bedarf Ihrer Organisation abdecken.",
+      whyEyebrow: "Warum ECIJA",
+      whyTitle: "Der Unterschied liegt in unserer Arbeitsweise.",
+      whyItems: [
+        {
+          title: "Echte Spezialisierung",
+          body: "Pioniere im Technologie-, Daten- und IP-Recht. Wir improvisieren nicht – wir tun das seit Jahrzehnten.",
+        },
+        {
+          title: "Internationale Reichweite",
+          body: "Präsenz in über 15 Ländern mit integrierten Teams. Ihre grenzüberschreitenden Vorhaben in einem Gespräch.",
+        },
+        {
+          title: "Geschäft zuerst",
+          body: "Wir verstehen die Geschäftsstrategie hinter jeder rechtlichen Entscheidung. Praxisnah, nicht akademisch.",
+        },
+        {
+          title: "Nähe und Engagement",
+          body: "Erreichbare Teams, erstklassige Reaktionszeiten und Partner, die in jedes Mandat eingebunden sind.",
+        },
+      ],
+      insightsEyebrow: "Insights",
+      insightsTitle: "Analysen zu dem, was kommt.",
+      insightsSubtitle:
+        "Perspektiven unserer Teams zu Regulierung, Technologie und Wirtschaft.",
+      ctaTitle: "Stehen Sie vor einer komplexen rechtlichen Herausforderung?",
+      ctaBody:
+        "Sprechen wir darüber. Unser Team hilft Ihnen, Unsicherheit in Strategie zu verwandeln.",
+      ctaButton: "Termin vereinbaren",
+      sectorsEyebrow: "Branchen",
+      sectorsTitle: "Branchen, die wir von innen kennen.",
+    },
+    firm: {
+      eyebrow: "Die Kanzlei",
+      title: "Wo Recht auf Innovation trifft.",
+      lead: "ECIJA ist die führende Kanzlei für Technologie, Datenschutz und geistiges Eigentum im spanisch- und portugiesischsprachigen Raum. In Argentinien bringen wir diese DNA in einen der dynamischsten Märkte der Region.",
+      missionTitle: "Unsere Mission",
+      missionBody:
+        "Erstklassige Rechtsberatung, die unseren Mandanten ermöglicht, mit Zuversicht zu innovieren, Risiken vorauszusehen und Chancen in einem sich ständig wandelnden Umfeld zu nutzen.",
+      valuesTitle: "Unsere Werte",
+      values: [
+        { title: "Exzellenz", body: "Die Standards der weltweit führenden Rechtsmärkte, lokal angewandt." },
+        { title: "Integrität", body: "Unabhängiges Urteil und absolute Transparenz gegenüber jedem Mandanten." },
+        { title: "Innovation", body: "Wir nutzen die Technologie, zu der wir beraten. Wir leben, was wir predigen." },
+        { title: "Zusammenarbeit", body: "Integrierte Teams ohne Silos – über Fachbereiche und Grenzen hinweg." },
+      ],
+      historyTitle: "Ein Netzwerk, eine Vision",
+      historyBody:
+        "Aus der Überzeugung gegründet, dass Technologie die Rechtspraxis für immer verändern würde, baute ECIJA das umfangreichste Netzwerk spezialisierter Kanzleien in Ibero-Amerika auf. Heute verbindet dieses Netzwerk Fachleute in Europa und Lateinamerika unter einem einheitlichen Qualitätsstandard.",
+      networkTitle: "Teil von etwas Größerem",
+      networkBody:
+        "Als Mitglieder des ECIJA-Netzwerks erhalten unsere Mandanten Zugang zu koordinierten Teams in über 15 Ländern – ideal für regionale Vorhaben und internationale Transaktionen.",
+    },
+    contact: {
+      eyebrow: "Kontakt",
+      title: "Sprechen wir über Ihren nächsten Schritt.",
+      subtitle:
+        "Füllen Sie das Formular aus und ein Mitglied unseres Teams meldet sich in Kürze.",
+      formName: "Vor- und Nachname",
+      formEmail: "Geschäftliche E-Mail",
+      formCompany: "Unternehmen",
+      formPhone: "Telefon",
+      formArea: "Interessengebiet",
+      formMessage: "Erzählen Sie uns von Ihrem Anliegen",
+      formSubmit: "Anfrage senden",
+      formSelectArea: "Bereich auswählen",
+      formSuccess: "Vielen Dank! Wir haben Ihre Anfrage erhalten und melden uns bald.",
+      directTitle: "Direkter Kontakt",
+      officesTitle: "Unsere Standorte",
+      privacyNote:
+        "Mit dem Absenden dieses Formulars akzeptieren Sie unsere Datenschutzrichtlinie. Ihre Daten werden vertraulich behandelt.",
+    },
+    offices: {
+      eyebrow: "Standorte",
+      title: "Lokale Präsenz, globale Reichweite.",
+      subtitle:
+        "Von Buenos Aires aus koordinieren wir Vorhaben in der gesamten Region – verbunden mit dem internationalen ECIJA-Netzwerk.",
+      headquarters: "Hauptsitz",
+      getDirections: "Route anzeigen",
+    },
+    insights: {
+      eyebrow: "Insights",
+      title: "Ideen, die Veränderung vorwegnehmen.",
+      subtitle:
+        "Analysen, regulatorische Neuigkeiten und Perspektiven unserer Spezialisten.",
+      featured: "Hervorgehoben",
+      categories: "Kategorien",
+      all: "Alle",
+    },
+    team: {
+      eyebrow: "Team",
+      title: "Die Menschen hinter der Beratung.",
+      subtitle:
+        "Ein Team von Spezialisten, das fachliche Strenge, Geschäftssinn und Engagement für jeden Mandanten vereint.",
+      filterAll: "Alle",
+      filterPractice: "Nach Fachbereich filtern",
+    },
+    practices: {
+      eyebrow: "Fachbereiche",
+      title: "Umfassende rechtliche Abdeckung für die digitale Wirtschaft.",
+      subtitle:
+        "Spezialisierte Teams, die zu jeder rechtlichen Dimension Ihrer Organisation beraten.",
+    },
+    footer: {
+      tagline: "Recht, Technologie und Wirtschaft. Globale Standards, lokale Wurzeln.",
+      navTitle: "Navigation",
+      practicesTitle: "Ausgewählte Fachbereiche",
+      contactTitle: "Kontakt",
+      legalTitle: "Rechtliches",
+      privacy: "Datenschutz",
+      terms: "Nutzungsbedingungen",
+      cookies: "Cookie-Richtlinie",
+      rights: "Alle Rechte vorbehalten.",
+      newsletter: "Abonnieren Sie unsere Insights",
+      newsletterPlaceholder: "Ihre E-Mail",
+      newsletterButton: "Abonnieren",
+      disclaimer:
+        "ECIJA Argentinien ist eine Mitgliedskanzlei des internationalen ECIJA-Netzwerks. Diese Website dient Informationszwecken und stellt keine Rechtsberatung dar.",
+    },
+  },
+} as const;
+
+export function getDictionary(locale: Locale): Dictionary {
+  return dictionaries[locale] as Dictionary;
+}

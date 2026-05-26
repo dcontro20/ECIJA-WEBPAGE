@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #faf8f5;
+  --ink: #0b0d14;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-feature-settings: "ss01", "cv01";
+}
+
+::selection {
+  background-color: #c4452f;
+  color: #faf8f5;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #eae6de;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1e2e;
+  border-radius: 0;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-8xl px-6 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-3 text-xs font-medium uppercase tracking-widest2 text-accent;
+  }
+
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-8 bg-accent;
+  }
+
+  .display-1 {
+    @apply font-serif text-[clamp(2.75rem,6vw,5.5rem)] leading-[0.98] tracking-tightest;
+  }
+
+  .display-2 {
+    @apply font-serif text-[clamp(2rem,4.2vw,3.75rem)] leading-[1.02] tracking-tightest;
+  }
+
+  .display-3 {
+    @apply font-serif text-[clamp(1.6rem,2.8vw,2.5rem)] leading-[1.08] tracking-tight;
+  }
+
+  .link-underline {
+    @apply relative inline-flex items-center gap-2 transition-colors;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-accent px-7 py-3.5 text-sm font-medium uppercase tracking-widest text-paper transition-all duration-300 hover:bg-accent-dark;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-current px-7 py-3.5 text-sm font-medium uppercase tracking-widest transition-all duration-300;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.45'/%3E%3C/svg%3E");
+}
