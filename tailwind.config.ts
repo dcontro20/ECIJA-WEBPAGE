@@ -22,9 +22,9 @@ const config: Config = {
           dim: "#EAE6DE",
         },
         accent: {
-          DEFAULT: "#C4452F",
-          light: "#E0573D",
-          dark: "#9E3422",
+          DEFAULT: "#6B2E9E",
+          light: "#A66BD6",
+          dark: "#4C1D78",
         },
         gold: {
           DEFAULT: "#B89150",

@@ -106,10 +106,10 @@ export default async function FirmPage({
           <Reveal delay={1}>
             <div className="grid grid-cols-2 gap-px bg-ink/10">
               {[
-                { value: 15, suffix: "+", label: dict.home.statCountries },
-                { value: 25, suffix: "+", label: dict.home.statYears },
-                { value: 250, suffix: "+", label: dict.home.statClients },
-                { value: 40, suffix: "+", label: dict.home.statLawyers },
+                { value: 18, suffix: "", label: dict.home.statCountries },
+                { value: 31, suffix: "", label: dict.home.statOffices },
+                { value: 700, suffix: "+", label: dict.home.statLawyers },
+                { value: 140, suffix: "+", label: dict.home.statPartners },
               ].map((s, i) => (
                 <div key={i} className="bg-paper p-8">
                   <p className="font-serif text-4xl text-accent lg:text-5xl">

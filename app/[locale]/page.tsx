@@ -25,10 +25,10 @@ export default async function HomePage({
   const insights = getRecentInsights(3);
 
   const stats = [
-    { value: 250, suffix: "+", label: dict.home.statClients },
-    { value: 40, suffix: "+", label: dict.home.statLawyers },
-    { value: 15, suffix: "+", label: dict.home.statCountries },
-    { value: 25, suffix: "+", label: dict.home.statYears },
+    { value: 18, suffix: "", label: dict.home.statCountries },
+    { value: 31, suffix: "", label: dict.home.statOffices },
+    { value: 700, suffix: "+", label: dict.home.statLawyers },
+    { value: 140, suffix: "+", label: dict.home.statPartners },
   ];
 
   return (
